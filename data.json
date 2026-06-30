@@ -1,0 +1,279 @@
+{
+  "prods": [
+    { "id": "p01", "nome": "Toalha Lisa",                    "cat": "casa", "compra": 17.50,  "venda": 50.00,  "estoque": 1  },
+    { "id": "p02", "nome": "Manta Infantil",                 "cat": "casa", "compra": 26.25,  "venda": 70.00,  "estoque": 1  },
+    { "id": "p03", "nome": "Cortina",                        "cat": "casa", "compra": 79.00,  "venda": 250.00, "estoque": 1  },
+    { "id": "p04", "nome": "Couxa",                          "cat": "casa", "compra": 73.50,  "venda": 200.00, "estoque": 7  },
+    { "id": "p05", "nome": "Cobre Leito Quem",               "cat": "casa", "compra": 78.75,  "venda": 190.00, "estoque": 2  },
+    { "id": "p06", "nome": "Lençol c/ Elástico FU",          "cat": "casa", "compra": 22.50,  "venda": 90.00,  "estoque": 8  },
+    { "id": "p07", "nome": "Lençol c/ Elástico Quem",        "cat": "casa", "compra": 19.68,  "venda": 100.00, "estoque": 6  },
+    { "id": "p08", "nome": "Lençol de Elástico King",        "cat": "",     "compra": 21.00,  "venda": 110.00, "estoque": 8  },
+    { "id": "p09", "nome": "Lençol de casal 300 Fios /Quem", "cat": "casa", "compra": 63.00,  "venda": 250.00, "estoque": 2  },
+    { "id": "p10", "nome": "Monjauro TG",                    "cat": "casa", "compra": 146.25, "venda": 350.00, "estoque": 32 },
+    { "id": "p11", "nome": "Lençol FU bordado",              "cat": "casa", "compra": 57.75,  "venda": 160.00, "estoque": 5  },
+    { "id": "p12", "nome": "Lençol Bordado Quem",            "cat": "casa", "compra": 50.00,  "venda": 250.00, "estoque": 2  },
+    { "id": "p13", "nome": "Lençol S/ Bordado Queen",        "cat": "casa", "compra": 78.00,  "venda": 130.00, "estoque": 2  },
+    { "id": "p14", "nome": "Lençol S/ Bordado King",         "cat": "casa", "compra": 84.00,  "venda": 140.00, "estoque": 2  },
+    { "id": "p15", "nome": "Lençol S/ Bordado",              "cat": "casa", "compra": 57.75,  "venda": 120.00, "estoque": 0  },
+    { "id": "p16", "nome": "Kit de Toalha Listrada",         "cat": "casa", "compra": 26.25,  "venda": 100.00, "estoque": 33 },
+    { "id": "p17", "nome": "Pano de Prato",                  "cat": "casa", "compra": 4.37,   "venda": 8.00,   "estoque": 21 },
+    { "id": "p18", "nome": "Lençol de solteiro",             "cat": "",     "compra": 23.75,  "venda": 60.00,  "estoque": 0  },
+    { "id": "p19", "nome": "Lençol solteiro bordado",        "cat": "casa", "compra": 31.66,  "venda": 70.00,  "estoque": 2  },
+    { "id": "p20", "nome": "Fronha",                         "cat": "casa", "compra": 10.00,  "venda": 30.00,  "estoque": 5  }
+  ],
+
+  "vendas": [
+    {
+      "id": "v01", "date": "2026-06-20T12:00:00.000Z",
+      "prodNome": "Lençol solteiro bordado + 4 outros",
+      "cliente": "Leticia Ramalho",
+      "items": [{"prodId":"p19","prodNome":"Lençol solteiro bordado + 4 outros","qtd":6,"unitPrice":76.33,"subtotal":458,"lucro":305.48}],
+      "qtd": 6, "total": 458, "lucro": 305.48,
+      "pay": { "method": "boleto", "parc": 4, "insts": [
+        {"num":1,"due":"2026-07-20","val":114.50,"paid":false},
+        {"num":2,"due":"2026-08-19","val":114.50,"paid":false},
+        {"num":3,"due":"2026-09-18","val":114.50,"paid":false},
+        {"num":4,"due":"2026-10-18","val":114.50,"paid":false}
+      ]}, "status": "pendente"
+    },
+    {
+      "id": "v02", "date": "2026-06-20T12:00:00.000Z",
+      "prodNome": "Toalha Lisa",
+      "cliente": "Eloisa",
+      "items": [{"prodId":"p01","prodNome":"Toalha Lisa","qtd":2,"unitPrice":50,"subtotal":100,"lucro":65}],
+      "qtd": 2, "total": 100, "lucro": 65,
+      "pay": { "method": "avista" }, "status": "recebido"
+    },
+    {
+      "id": "v03", "date": "2026-06-20T12:00:00.000Z",
+      "prodNome": "Lençol Bordado Quem + 2 outros",
+      "cliente": "Alba",
+      "items": [{"prodId":"p12","prodNome":"Lençol Bordado Quem + 2 outros","qtd":4,"unitPrice":105,"subtotal":420,"lucro":308.75}],
+      "qtd": 4, "total": 420, "lucro": 308.75,
+      "pay": { "method": "boleto", "parc": 2, "insts": [
+        {"num":1,"due":"2026-07-20","val":210,"paid":false},
+        {"num":2,"due":"2026-08-19","val":210,"paid":false}
+      ]}, "status": "pendente"
+    },
+    {
+      "id": "v04", "date": "2026-06-20T12:00:00.000Z",
+      "prodNome": "Toalha Lisa",
+      "cliente": "Ana Leia",
+      "items": [{"prodId":"p01","prodNome":"Toalha Lisa","qtd":2,"unitPrice":50,"subtotal":100,"lucro":65}],
+      "qtd": 2, "total": 100, "lucro": 65,
+      "pay": { "method": "boleto", "parc": 2, "insts": [
+        {"num":1,"due":"2026-07-20","val":50,"paid":false},
+        {"num":2,"due":"2026-08-19","val":50,"paid":false}
+      ]}, "status": "pendente"
+    },
+    {
+      "id": "v05", "date": "2026-06-20T12:00:00.000Z",
+      "prodNome": "Toalha Lisa + 2 outros",
+      "cliente": "Ivone",
+      "items": [{"prodId":"p01","prodNome":"Toalha Lisa + 2 outros","qtd":5,"unitPrice":82,"subtotal":410,"lucro":227.84}],
+      "qtd": 5, "total": 410, "lucro": 227.84,
+      "pay": { "method": "boleto", "parc": 2, "insts": [
+        {"num":1,"due":"2026-07-20","val":205,"paid":false},
+        {"num":2,"due":"2026-08-19","val":205,"paid":false}
+      ]}, "status": "pendente"
+    },
+    {
+      "id": "v06", "date": "2026-06-20T12:00:00.000Z",
+      "prodNome": "Kit de Toalha Listrada",
+      "cliente": "Miss Dayse",
+      "items": [{"prodId":"p16","prodNome":"Kit de Toalha Listrada","qtd":1,"unitPrice":100,"subtotal":100,"lucro":73.75}],
+      "qtd": 1, "total": 100, "lucro": 73.75,
+      "pay": { "method": "avista" }, "status": "recebido"
+    },
+    {
+      "id": "v07", "date": "2026-06-20T12:00:00.000Z",
+      "prodNome": "Kit de Toalha Listrada",
+      "cliente": "Pra Jana",
+      "items": [{"prodId":"p16","prodNome":"Kit de Toalha Listrada","qtd":1,"unitPrice":100,"subtotal":100,"lucro":73.75}],
+      "qtd": 1, "total": 100, "lucro": 73.75,
+      "pay": { "method": "avista" }, "status": "recebido"
+    },
+    {
+      "id": "v08", "date": "2026-06-20T12:00:00.000Z",
+      "prodNome": "Kit de Toalha Listrada",
+      "cliente": "Janete - Vovo",
+      "items": [{"prodId":"p16","prodNome":"Kit de Toalha Listrada","qtd":2,"unitPrice":100,"subtotal":200,"lucro":147.50}],
+      "qtd": 2, "total": 200, "lucro": 147.50,
+      "pay": { "method": "boleto", "parc": 2, "insts": [
+        {"num":1,"due":"2026-07-20","val":100,"paid":false},
+        {"num":2,"due":"2026-08-19","val":100,"paid":false}
+      ]}, "status": "pendente"
+    },
+    {
+      "id": "v09", "date": "2026-06-20T12:00:00.000Z",
+      "prodNome": "Pano de prato Estampado",
+      "cliente": "Ivone",
+      "items": [{"prodId":"p17","prodNome":"Pano de prato Estampado","qtd":4,"unitPrice":10,"subtotal":40,"lucro":22.68}],
+      "qtd": 4, "total": 40, "lucro": 22.68,
+      "pay": { "method": "boleto", "parc": 2, "insts": [
+        {"num":1,"due":"2026-07-20","val":20,"paid":false},
+        {"num":2,"due":"2026-08-19","val":20,"paid":false}
+      ]}, "status": "pendente"
+    },
+    {
+      "id": "v10", "date": "2026-06-20T12:00:00.000Z",
+      "prodNome": "Manta Infantil",
+      "cliente": "Vanessa Adriano",
+      "items": [{"prodId":"p02","prodNome":"Manta Infantil","qtd":1,"unitPrice":70,"subtotal":70,"lucro":43.75}],
+      "qtd": 1, "total": 70, "lucro": 43.75,
+      "pay": { "method": "avista" }, "status": "recebido"
+    },
+    {
+      "id": "v11", "date": "2026-06-20T12:00:00.000Z",
+      "prodNome": "Lençol FU",
+      "cliente": "Jorgete",
+      "items": [{"prodId":"p11","prodNome":"Lençol FU","qtd":1,"unitPrice":140,"subtotal":140,"lucro":82.25}],
+      "qtd": 1, "total": 140, "lucro": 82.25,
+      "pay": { "method": "boleto", "parc": 2, "insts": [
+        {"num":1,"due":"2026-07-20","val":70,"paid":false},
+        {"num":2,"due":"2026-08-19","val":70,"paid":false}
+      ]}, "status": "pendente"
+    },
+    {
+      "id": "v12", "date": "2026-06-20T12:00:00.000Z",
+      "prodNome": "Kit de Toalha Listrada + 1 outro",
+      "cliente": "Vovó Hirtes",
+      "items": [{"prodId":"p16","prodNome":"Kit de Toalha Listrada + 1 outro","qtd":4,"unitPrice":85,"subtotal":340,"lucro":224.18}],
+      "qtd": 4, "total": 340, "lucro": 224.18,
+      "pay": { "method": "boleto", "parc": 3, "insts": [
+        {"num":1,"due":"2026-07-20","val":113.33,"paid":false},
+        {"num":2,"due":"2026-08-19","val":113.33,"paid":false},
+        {"num":3,"due":"2026-09-18","val":113.33,"paid":false}
+      ]}, "status": "pendente"
+    },
+    {
+      "id": "v13", "date": "2026-06-20T12:00:00.000Z",
+      "prodNome": "Kit de Toalha Listrada + 1 outro",
+      "cliente": "Jaciara",
+      "items": [{"prodId":"p16","prodNome":"Kit de Toalha Listrada + 1 outro","qtd":3,"unitPrice":113.33,"subtotal":340,"lucro":198.25}],
+      "qtd": 3, "total": 340, "lucro": 198.25,
+      "pay": { "method": "boleto", "parc": 3, "insts": [
+        {"num":1,"due":"2026-07-20","val":113.33,"paid":false},
+        {"num":2,"due":"2026-08-19","val":113.33,"paid":false},
+        {"num":3,"due":"2026-09-18","val":113.33,"paid":false}
+      ]}, "status": "pendente"
+    },
+    {
+      "id": "v14", "date": "2026-06-20T12:00:00.000Z",
+      "prodNome": "Kit de Toalha Listrada + 1 outro",
+      "cliente": "Lais Ramalho",
+      "items": [{"prodId":"p16","prodNome":"Kit de Toalha Listrada + 1 outro","qtd":2,"unitPrice":80,"subtotal":160,"lucro":110}],
+      "qtd": 2, "total": 160, "lucro": 110,
+      "pay": { "method": "boleto", "parc": 2, "insts": [
+        {"num":1,"due":"2026-07-20","val":80,"paid":false},
+        {"num":2,"due":"2026-08-19","val":80,"paid":false}
+      ]}, "status": "pendente"
+    },
+    {
+      "id": "v15", "date": "2026-06-20T12:00:00.000Z",
+      "prodNome": "Kit de Toalha Listrada + 4 outros",
+      "cliente": "Monique",
+      "items": [{"prodId":"p16","prodNome":"Kit de Toalha Listrada + 4 outros","qtd":10,"unitPrice":72,"subtotal":720,"lucro":516.48}],
+      "qtd": 10, "total": 720, "lucro": 516.48,
+      "pay": { "method": "boleto", "parc": 3, "insts": [
+        {"num":1,"due":"2026-07-05","val":240,"paid":false},
+        {"num":2,"due":"2026-08-05","val":240,"paid":false},
+        {"num":3,"due":"2026-09-05","val":240,"paid":false}
+      ]}, "status": "pendente"
+    },
+    {
+      "id": "v16", "date": "2026-06-20T12:00:00.000Z",
+      "prodNome": "Lençol S/ Bordado",
+      "cliente": "Carol Felipe",
+      "items": [{"prodId":"p15","prodNome":"Lençol S/ Bordado","qtd":1,"unitPrice":120,"subtotal":120,"lucro":62.25}],
+      "qtd": 1, "total": 120, "lucro": 62.25,
+      "pay": { "method": "pix" }, "status": "recebido"
+    },
+    {
+      "id": "v17", "date": "2026-06-20T12:00:00.000Z",
+      "prodNome": "Kit de Toalha Listrada",
+      "cliente": "Rosi Pamphirio",
+      "items": [{"prodId":"p16","prodNome":"Kit de Toalha Listrada","qtd":1,"unitPrice":100,"subtotal":100,"lucro":73.75}],
+      "qtd": 1, "total": 100, "lucro": 73.75,
+      "pay": { "method": "pix" }, "status": "recebido"
+    },
+    {
+      "id": "v18", "date": "2026-06-20T12:00:00.000Z",
+      "prodNome": "Kit de Toalha Listrada",
+      "cliente": "Luana Fausto",
+      "items": [{"prodId":"p16","prodNome":"Kit de Toalha Listrada","qtd":1,"unitPrice":100,"subtotal":100,"lucro":73.75}],
+      "qtd": 1, "total": 100, "lucro": 73.75,
+      "pay": { "method": "pix" }, "status": "recebido"
+    },
+    {
+      "id": "v19", "date": "2026-06-21T12:00:00.000Z",
+      "prodNome": "Couxa + 3 outros",
+      "cliente": "Laricia",
+      "items": [{"prodId":"p04","prodNome":"Couxa + 3 outros","qtd":4,"unitPrice":177.50,"subtotal":710,"lucro":473.50}],
+      "qtd": 4, "total": 710, "lucro": 473.50,
+      "pay": { "method": "boleto", "parc": 4, "insts": [
+        {"num":1,"due":"2026-07-21","val":177.50,"paid":false},
+        {"num":2,"due":"2026-08-20","val":177.50,"paid":false},
+        {"num":3,"due":"2026-09-19","val":177.50,"paid":false},
+        {"num":4,"due":"2026-10-19","val":177.50,"paid":false}
+      ]}, "status": "pendente"
+    },
+    {
+      "id": "v20", "date": "2026-06-21T12:00:00.000Z",
+      "prodNome": "Toalha Lisa + 2 outros",
+      "cliente": "Janete - Vovo",
+      "items": [{"prodId":"p01","prodNome":"Toalha Lisa + 2 outros","qtd":6,"unitPrice":80,"subtotal":480,"lucro":266.18}],
+      "qtd": 6, "total": 480, "lucro": 266.18,
+      "pay": { "method": "boleto", "parc": 4, "insts": [
+        {"num":1,"due":"2026-07-22","val":120,"paid":false},
+        {"num":2,"due":"2026-08-21","val":120,"paid":false},
+        {"num":3,"due":"2026-09-20","val":120,"paid":false},
+        {"num":4,"due":"2026-10-20","val":120,"paid":false}
+      ]}, "status": "pendente"
+    },
+    {
+      "id": "v21", "date": "2026-06-22T12:00:00.000Z",
+      "prodNome": "Kit de Toalha Listrada + 2 outros",
+      "cliente": "Carol Felipe",
+      "items": [{"prodId":"p16","prodNome":"Kit de Toalha Listrada + 2 outros","qtd":4,"unitPrice":117.50,"subtotal":470,"lucro":317.25}],
+      "qtd": 4, "total": 470, "lucro": 317.25,
+      "pay": { "method": "boleto", "parc": 3, "insts": [
+        {"num":1,"due":"2026-07-22","val":156.67,"paid":false},
+        {"num":2,"due":"2026-08-21","val":156.67,"paid":false},
+        {"num":3,"due":"2026-09-20","val":156.67,"paid":false}
+      ]}, "status": "pendente"
+    },
+    {
+      "id": "v22", "date": "2026-06-22T12:00:00.000Z",
+      "prodNome": "Pano de Prato + 1 outro",
+      "cliente": "Vovó Hirtes",
+      "items": [{"prodId":"p17","prodNome":"Pano de Prato + 1 outro","qtd":7,"unitPrice":25.71,"subtotal":180,"lucro":94.83}],
+      "qtd": 7, "total": 180, "lucro": 94.83,
+      "pay": { "method": "boleto", "parc": 2, "insts": [
+        {"num":1,"due":"2026-07-22","val":90,"paid":false},
+        {"num":2,"due":"2026-08-21","val":90,"paid":false}
+      ]}, "status": "pendente"
+    }
+  ],
+
+  "clientes": [
+    { "id": "c01", "nome": "Leticia Ramalho",  "tel": "", "obs": "", "createdAt": "2026-06-20T12:00:00.000Z" },
+    { "id": "c02", "nome": "Eloisa",            "tel": "", "obs": "", "createdAt": "2026-06-20T12:00:00.000Z" },
+    { "id": "c03", "nome": "Alba",              "tel": "", "obs": "", "createdAt": "2026-06-20T12:00:00.000Z" },
+    { "id": "c04", "nome": "Ana Leia",          "tel": "", "obs": "", "createdAt": "2026-06-20T12:00:00.000Z" },
+    { "id": "c05", "nome": "Ivone",             "tel": "", "obs": "", "createdAt": "2026-06-20T12:00:00.000Z" },
+    { "id": "c06", "nome": "Miss Dayse",        "tel": "", "obs": "", "createdAt": "2026-06-20T12:00:00.000Z" },
+    { "id": "c07", "nome": "Pra Jana",          "tel": "", "obs": "", "createdAt": "2026-06-20T12:00:00.000Z" },
+    { "id": "c08", "nome": "Janete - Vovo",     "tel": "", "obs": "", "createdAt": "2026-06-20T12:00:00.000Z" },
+    { "id": "c09", "nome": "Vanessa Adriano",   "tel": "", "obs": "", "createdAt": "2026-06-20T12:00:00.000Z" },
+    { "id": "c10", "nome": "Jorgete",           "tel": "", "obs": "", "createdAt": "2026-06-20T12:00:00.000Z" },
+    { "id": "c11", "nome": "Vovó Hirtes",       "tel": "", "obs": "", "createdAt": "2026-06-20T12:00:00.000Z" },
+    { "id": "c12", "nome": "Jaciara",           "tel": "", "obs": "", "createdAt": "2026-06-20T12:00:00.000Z" },
+    { "id": "c13", "nome": "Lais Ramalho",      "tel": "", "obs": "", "createdAt": "2026-06-20T12:00:00.000Z" },
+    { "id": "c14", "nome": "Monique",           "tel": "", "obs": "", "createdAt": "2026-06-20T12:00:00.000Z" },
+    { "id": "c15", "nome": "Carol Felipe",      "tel": "", "obs": "", "createdAt": "2026-06-20T12:00:00.000Z" },
+    { "id": "c16", "nome": "Rosi Pamphirio",    "tel": "", "obs": "", "createdAt": "2026-06-20T12:00:00.000Z" },
+    { "id": "c17", "nome": "Luana Fausto",      "tel": "", "obs": "", "createdAt": "2026-06-20T12:00:00.000Z" },
+    { "id": "c18", "nome": "Laricia",           "tel": "", "obs": "", "createdAt": "2026-06-21T12:00:00.000Z" }
+  ]
+}
